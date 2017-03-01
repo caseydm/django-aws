@@ -27,9 +27,9 @@ urlpatterns = [
     url(r'^pages/', include('django.contrib.flatpages.urls')),
     url(r'^contact/', contact_views.contact, name='contact'),
 
-    # # user registration/authentication
-    # url(r'^sign_in$', payment_views.sign_in, name='sign_in'),
-    # url(r'^sign_out$', payment_views.sign_out, name='sign_out'),
-    # url(r'^register$', payment_views.register, name='register'),
-    # url(r'^edit$', payment_views.edit, name='edit'),
+    # user registration/authentication
+    url(r'^sign_in$', payment_views.sign_in, name='sign_in'),
+    url(r'^sign_out$', payment_views.sign_out, name='sign_out'),
+    url(r'^register$', payment_views.register, name='register'),
+    url(r'^edit$', payment_views.edit, name='edit'),
 ]
