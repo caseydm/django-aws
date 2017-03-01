@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.flatpages',
-    'main'
+    'main',
+    'contact'
 ]
 
 MIDDLEWARE = [
