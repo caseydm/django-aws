@@ -29,6 +29,10 @@ ALLOWED_HOSTS = []
 
 SITE_ID = 1
 
+# stripe
+STRIPE_SECRET = os.environ.get('STRIPE_SECRET')
+STRIPE_PUBLISHABLE = os.environ.get('STRIPE_PUBLISHABLE')
+
 
 # Application definition
 
