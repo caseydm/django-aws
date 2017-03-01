@@ -20,7 +20,7 @@ from main import views as main_views
 admin.autodiscover()
 
 urlpatterns = [
-
+    url(r'^admin/', include(admin.site.urls)),
     url(r'^$', main_views.index, name='home'),
     url(r'^pages/', include('django.contrib.flatpages.urls')),
 ]
