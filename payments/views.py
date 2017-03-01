@@ -3,7 +3,7 @@ from django.shortcuts import render, redirect
 from django.template import RequestContext
 from payments.forms import SigninForm, CardForm, UserForm
 from payments.models import User
-import django_ecommerce.settings as settings
+import config.settings as settings
 import stripe
 import datetime
 

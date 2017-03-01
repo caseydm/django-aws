@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from payment.models import User
+from payments.models import User
 
 
 def index(request):
